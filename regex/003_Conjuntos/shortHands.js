@@ -9,3 +9,5 @@ console.log(texto.match(/\W/g)) // Não caracteres [^a-zA-Z0-9_]
 
 console.log(texto.match(/\s/g)) // Espaços - [ \t\n\r\f\s]
 console.log(texto.match(/\S/g)) // Não Espaços - [^ \t\n\r\f\s]
+
+// \b \B
