@@ -1,0 +1,18 @@
+// desafioCPF.js
+`CPF Gos Aprovados:
+    -865.571.340-60
+    -950.978.230-01
+    -342.820.280-50
+    -952.095.220-91
+    -179.063.940-97`
+
+// desafioTelefone.js 
+`Lista telefônica:
+    - (11) 98877-1212
+    -98765-4321
+    -98835-3214`
+
+// desafioEmail.js 
+`Os e-mails dos convidados são:
+    -fulano@gmail.com
+    -xico@gmail.com`
