@@ -11,7 +11,6 @@ const res1 = somar(3)(4)(5)
 console.log(res1)
 
 // calcular(3)(4)(fn)
-
 const potencia = (base,exp) => Math.pow(base,exp)
 const divisao = (a,b) => a/b 
 const mult = (a,b) => a*b 
