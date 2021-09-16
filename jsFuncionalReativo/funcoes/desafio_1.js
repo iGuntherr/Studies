@@ -17,11 +17,11 @@ const mult = (a,b) => a*b
 
 const calcular = a =>{
     return function(b){
-        return function(c){
-            if(typeof c === 'function'){
-                console.log(c(a,b))
+        return function(fn){
+            if(typeof fn === 'function'){
+                console.log(fn(a,b))
             }else{
-                console.log(`${c} não é uma função válida!`)
+                console.log(`${fn} não é uma função válida!`)
             }
         }
     }
