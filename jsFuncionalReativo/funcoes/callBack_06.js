@@ -15,3 +15,14 @@ const nomeItensValido = carrinho
     .map(getNome)
 
 console.log(nomeItensValido)
+
+const simpleArray = [1,2,3,4,5]
+
+const somaAcumulador = (acc, el) => acc + el 
+
+console.log(simpleArray.reduce(somaAcumulador))
+
+const calculaValor = el => el.preco * el.qtde
+const calculaTotal = (acc, el) => acc + el
+
+console.log(carrinho.map(calculaValor).reduce(calculaTotal))
